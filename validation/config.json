@@ -1,3 +1,8 @@
 {
-  "macros": ["example.mac"]
+  "macros": [
+    "dna_opt2_0.1keV.mac",
+    "dna_opt2_1.0keV.mac",
+    "dna_opt2_5.0keV.mac",
+    "dna_opt2_10.0keV.mac"
+  ]
 }

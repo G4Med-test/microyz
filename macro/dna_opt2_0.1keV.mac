@@ -1,0 +1,24 @@
+#/run/numberOfThreads 2
+#
+/tracking/verbose 0
+#
+/microyz/phys/addPhysics  dna_opt2              
+#
+/run/initialize
+#
+/process/em/fluo true
+/process/em/auger true
+/process/em/augerCascade true
+/process/em/pixe true
+/process/em/deexcitationIgnoreCut true 
+#
+/gun/particle e-
+#
+/gun/energy 0.1 keV
+#
+/run/printProgress 100
+#
+#
+/run/beamOn 100000
+
+
